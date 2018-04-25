@@ -11,7 +11,45 @@
             <p id="description">This is a survey.</p>
         </div>
         <div>
-            
+            <form id="survey-form">
+                <p>
+                    <input type="text" id="name" placeholder="Name"><label for="name" id="name-label">Name</label>
+                </p>
+                <p>
+                    <input type="email" id="email" placeholder="Email"><label for="email" id="email-label">Email</label>
+                </p>
+                <p>
+                    <input type="number" id="number" min="1" max="10" placeholder="Number"><label for="number" id="number-label">Number (from 1 to 10)</label>
+                </p>
+                <p>
+                    <select name="Ranking" id="dropdown">
+                        <option value="first">First</option>
+                        <option value"second">Second</option>
+                        <option value"third">Third</option>
+                        <option value"fourth">Fourth</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="radio" name="when" value="Yesterday" checked>Yesterday<br>
+                    <input type="radio" name="when" value="Today">Today<br>
+                    <input type="radio" name="when" value="Tomorrow">Tomorrow
+                </p>
+                <p>
+                    <input type="checkbox" name="shu" value="Yi">Yi<br>
+                    <input type="checkbox" name="shu" value="Er">Er<br>
+                    <input type="checkbox" name="shu" value="San">San<br>
+                    <input type="checkbox" name="shu" value="Si">Si<br>
+                    <input type="checkbox" name="shu" value="Wu">Wu
+                </p>
+                <p>
+                    Comments:<br>
+                    <textarea name="comments" rows="10" cols="30">
+                    </textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Submit" id="submit">
+                </p>
+            </form>
         </div>
         </body>
     </main>
