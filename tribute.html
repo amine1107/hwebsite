@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <head>
         <meta charset="UTF-8">
-        <title>Pending</title>   
+        <title>Tribute Page Ada Lovelace</title>   
     </head>
+    <style>
+            body {
+              background-color: #7c756f;    
+              }
+              .well {
+              background-color: #7c756f;
+              margin: auto;
+              margin-bottom: 20px;
+              padding: 20px;
+              width: 50%;
+              font-family: courier;
+              font-size: 18px;
+              color: #dcd6d1;
+              border: 5px outset #dcd6d1;
+              }
+              p {
+                font-family: courier;
+                font-size: 18px;
+                color: #dcd6d1;
+              }
+              #image {
+                max-width: 100%;
+              }
+              h1 {
+                color: #dcd6d1;
+                font-family: verdana;
+              }
+              @media only screen and (max-width: 600px) {
+              .well {
+                  width: 80%;
+              }
+          }
+            </style>
     <main>
         <body>
-            <h3>Content pending</h3>
-            <p>Test</p>
+  
+                <div class="container-fluid" id="main">
+  
+                        <h1 class="text-center" id="title">Ada Lovelace</h1>
+                      <div id="img-div">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg" class="img-rounded center-block mt-5 mb-5" alt="Ada Lovelace" id="image"><br>
+                        <div id="img-caption" class="lead text-center" style="color:#dcd6d1;"> Augusta Ada Byron, Countess of Lovelace</div>
+                        </div>
+                        <div class="p-5">
+                        
+                          <p class="small text-center">10 December 1815 - 27 November 1852
+                        </p>
+                        
+                        </div>
+                             
+                        <div class="well" id="tribute-info">
+                        <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" style="color: #fff49c" target="_blank">Ada Lovelace</a> was a mathematician and writer. She was the first to recognize that <a href="https://en.wikipedia.org/wiki/Charles_Babbage" style="color: #fff49c" target"_blank">Babbage</a>'s proposed mechanical computer had applications beyond just simply calculus. She published the first algorythm and with that, she became the very first computer programmer.       
+                          </div>
+                          
+                          <div class="well">
+                        She was born in London, and her father, Lord Byron, divorced her mother, Annabella Milbanke, a few months after. Ada was mostly raised by her grandmother and she was often ill. Despite her health problems, she was able to develop mathematical and technological skills. She believed that intuition and imagination were critical to effectively applying mathematical and scientific concepts.           
+                          </div>
+                          
+                          <div class="well">    
+                          Her first project at age 12 was to build a flying machine. She examined materials and the anatomy of birds, and even imagined integrating steam into this project.        
+                          </div>
+                          
+                          <div class="well">
+                          Later in life, she became friends with a multitude of scientists and artists. Among them were Charles Dickens, Mary Sommerville, Michael Faraday and Charles Wheatstone. She spent a lot of time around Babbage, who was impressed by her abilities and called her The Enchantress of Number. In one of her notes, she wrote an algorythm to compute Bernoulli numbers. The notes were published a century (!) after her death.       
+                          </div>
+                          
+                          <div class="well">
+                          In 1935 she married William King, and they had three children: Byron, Anabella and Ralph Gordon. When she was 36 years old, she died of uterine cancer.      
+                          </div>
+                              <p class="text-center">Here's more information on <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" style="color: #fff49c" id="tribute-link" target="_blank">more information on Ada Lovelace</a>.
+                        </p>
+                      </div>  
         </body>
     </main>
 </html>
